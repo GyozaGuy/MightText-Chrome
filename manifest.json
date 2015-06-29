@@ -1,0 +1,13 @@
+{
+	"name": "MightyText for Chrome",
+	"description": "MightyText for Chrome",
+	"version": "0.1",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"icons": { "16": "assets/icon_16.png", "128": "assets/icon_128.png" },
+	"permissions": ["webview"]
+}
